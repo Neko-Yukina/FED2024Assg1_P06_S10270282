@@ -3,15 +3,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.main-title {
+    text-align: center;
+    font-size: 3em; /* Adjust font size as needed */
+    margin: 20px 0; /* Adjust margin as needed */
+}
+
 nav {
     position: fixed;
-    top: 0;
+    top: 80px;
     width: 100%;
     background-color: #333;
     color: white;
     padding: 20px 0; /* Increase padding to make the nav bar bigger */
     text-align: center;
     font-size: 1.2em; /* Increase font size */
+    opacity: 0.9; /* Set the opacity of the navigation bar */
 }
 
 nav ul {
@@ -36,5 +43,5 @@ nav ul li a:hover {
 }
 
 h1 {
-    margin-top: 100px; /* Adjust this value to avoid overlap with the fixed nav */
+    margin-top: 20px; /* Adjust this value to avoid overlap with the fixed nav */
 }
