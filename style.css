@@ -1,13 +1,21 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #5a595c;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .main-title {
     text-align: center;
-    font-size: 3em; /* Adjust font size as needed */
-    margin: 20px 0; /* Adjust margin as needed */
+    font-size: 3em; 
+    margin: 20px 0; 
+    color: white; 
+}
+
+.lora-font {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
 
 nav {
