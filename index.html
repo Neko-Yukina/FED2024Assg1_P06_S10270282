@@ -19,17 +19,35 @@
         <!-- Navigation bar -->
         <nav>
             <ul>
-                <li><a href="#Home">Homepage</a></li>
-                <li><a href="#Music">Our Music/Performances</a></li>
-                <li><a href="#contact">Contact us</a></li>
-                <li><a href="#about">About us</a></li>
+                <li><a href="#Home" onclick="showSection('home')">Homepage</a></li>
+                <li><a href="#Music" onclick="showSection('music')">Our Music/Performances</a></li>
+                <li><a href="#Contact" onclick="showSection('contact')">Contact us</a></li>
+                <li><a href="#About" onclick="showSection('about')">About us</a></li>
             </ul>
         </nav>
 
-        <!-- Image -->
-        <img class="Homepage-image" src="images/Imagine Dragons.jpeg" alt="Image of Imagine Dragons" />
+        <!-- Sections -->
+        <div id="home" class="section">
+            <img class="Homepage-image" src="images/Imagine Dragons.jpeg" alt="Image of Imagine Dragons" />
+        </div>
+        <div id="music" class="section" style="display:none;">
+            <p>Our Music/Performances content goes here.</p>
+        </div>
+        <div id="contact" class="section" style="display:none;">
+            <p>Contact us content goes here.</p>
+        </div>
+        <div id="about" class="section" style="display:none;">
+            <p>
+                Imagine Dragons is an American pop rock band from Las Vegas, Nevada, 
+                consisting of lead vocalist Dan Reynolds, 
+                guitarist Wayne Sermon, bassist Ben McKee, and drummer Daniel Platzman. 
+                The band first gained exposure with the release of single "It's Time", 
+                followed by their award-winning debut studio album Night Visions (2012), 
+                which resulted in the chart-topping singles "Radioactive" and "Demons".
+            </p>
+        </div>
 
-
+        <p class="footer">This is a footer</p>
 
         <!-- Link to JavaScript file -->
         <script src="script.js"></script>
