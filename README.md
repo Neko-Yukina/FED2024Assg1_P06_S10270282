@@ -4,7 +4,7 @@ This is my Assignment 1 repo.
 
 ## Project Overview
 
-This project is a simple web page for the band Imagine Dragons. It includes a homepage, a section for music and performances, and a contact section.
+This project is a simple web page for the band Imagine Dragons. It includes a homepage, a section for music and performances, a contact section and an about us section.
 
 ## File Structure
 
