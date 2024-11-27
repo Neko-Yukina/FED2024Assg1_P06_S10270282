@@ -31,10 +31,30 @@ This project is a simple web page for the band Imagine Dragons. It includes a ho
 1. Clone the repository.
 2. Open `index.html` in a web browser.
 
-## External Resources
+## Documentation and Research
 
-- [Google Fonts](https://fonts.google.com/)
-- [Spotify](https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q)
+- [Imagine Dragon's Wikipedia](https://en.wikipedia.org/wiki/Imagine_Dragons)
+- [Imagine Dragon's Youtube](https://www.youtube.com/@ImagineDragons)
+- [Imagine Dragon's Offical Store](https://shop.imaginedragonsmusic.com/)
+- [Imagine Dragon's Spotify](https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q)
+
+### User Audience Intent and Purpose
+
+The intent of this website is to provide fans of Imagine Dragons with a comprehensive and engaging online experience. The purpose is to offer information about the band, their music, upcoming performances, and ways to connect with them.
+
+### Target Audience
+
+The website is catering to fans of Imagine Dragons, music enthusiasts, and potential new listeners. It provides value by offering detailed information about the band, their discography, and upcoming events. Additionally, it serves as a platform for fans to connect with the band through social media links and contact forms.
+
+### Website Purpose
+
+The website aims to be a one-stop destination for all things related to Imagine Dragons. It caters to fans looking for the latest news, music releases, tour dates, and background information about the band members.
+
+### External Source Code Attribution
+
+- The project uses [Google Fonts](https://fonts.google.com/) for typography.
+- The README.md uses [Readme.md guide](https://guides.github.com/features/mastering-markdown/) for help with writing this.
+- Any additional external libraries or code snippets used will be attributed here.
 
 ## Author
 
