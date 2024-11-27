@@ -9,3 +9,9 @@ function showSection(sectionId) {
     var selectedSection = document.getElementById(sectionId);
     selectedSection.style.display = 'block';
 }
+
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    alert('Thanks for submitting!');
+    this.reset();
+});
