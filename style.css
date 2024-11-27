@@ -19,21 +19,21 @@ body {
 }
 
 nav {
-    position: fixed;
-    top: 95px;
-    width: 100%;
-    background-color: #333;
-    color: white;
+    position: fixed; /* Set the navigation bar to be fixed */
+    top: 95px; /* Set the distance from the top of the viewport */
+    width: 100%; /* Make the navigation bar take up the full width of the viewport */
+    background-color: #333; /* Set the background color of the navigation bar */
+    color: white; /* Set the color of the text to white */
     padding: 20px 0; /* Increase padding to make the nav bar bigger */
-    text-align: center;
+    text-align: center; /* Center the links */
     font-size: 1.2em; /* Increase font size */
     opacity: 0.8; /* Set the opacity of the navigation bar */
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0; /* Remove margin to avoid extra space around the list */
+    padding: 0; /* Remove padding to avoid extra space around the list */
 }
 
 nav ul li 
@@ -43,12 +43,12 @@ nav ul li
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Set the color of the links to white */
+    text-decoration: none; /* Remove underline from links */
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Add underline on hover */
 }
 
 h1 {
@@ -81,6 +81,16 @@ html, body {
     bottom: 0;
     width: 100%;
     border-top: 2px solid black; /* Add a black line above the footer */
+}
+
+.footer a {
+    margin: 0 20px; /* Add horizontal margin to space out the links */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set the color of the links to white */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
 input[type="submit"] {
