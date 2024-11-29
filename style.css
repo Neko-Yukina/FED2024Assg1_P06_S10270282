@@ -1,6 +1,7 @@
 
 body {
     background-color: #5a595c;
+    color: white;
     font-family: Arial, sans-serif;
 }
 
@@ -77,6 +78,7 @@ nav ul li a:hover {
 
 h1 {
     margin-top: 20px; /* Adjust this value to avoid overlap with the fixed nav */
+    color: white;
 }
 
 /* Footer styling */
@@ -112,6 +114,27 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: darkgreen;
+}
+
+.book-ticket-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition-duration: 0.4s; /* Transition effect */
+}
+
+.book-ticket-btn:hover {
+    background-color: white; /* White background on hover */
+    color: black; /* Black text on hover */
+    border: 2px solid #4CAF50; /* Green border on hover */
 }
 
 /* Media query for mobile devices */
