@@ -57,6 +57,10 @@ The website aims to be a one-stop destination for all things related to Imagine 
 - The project uses [Youtube Embed Code](https://www.youtube.com/) and [Spotify Embed Code](https://open.spotify.com/) for the music section
 - Any additional external libraries or code snippets used will be attributed here.
 
+### Wireframe
+
+- [Wireframe Link](https://www.figma.com/design/LfxAiqgkxEI105mwNDbLT2/FED_S10270282_Kenneth_Assg1_wireframe?node-id=0-1&t=SmSWaskVsUoASQnb-1)
+
 ## Author
 
 - [Kenneth Chua]
