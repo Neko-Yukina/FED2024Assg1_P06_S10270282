@@ -54,6 +54,7 @@ The website aims to be a one-stop destination for all things related to Imagine 
 
 - The project uses [Google Fonts](https://fonts.google.com/) for typography.
 - The README.md uses [Readme.md guide](https://guides.github.com/features/mastering-markdown/) for help with writing this.
+- The project uses [Youtube Embed Code](https://www.youtube.com/) and [Spotify Embed Code](https://open.spotify.com/) for the music section
 - Any additional external libraries or code snippets used will be attributed here.
 
 ## Author
