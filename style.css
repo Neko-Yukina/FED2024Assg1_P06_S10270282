@@ -76,12 +76,18 @@ nav ul li a:hover {
     padding-top: 60px; /* Add padding to avoid overlap with the fixed nav */
 }
 
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     margin-top: 20px; /* Adjust this value to avoid overlap with the fixed nav */
     color: white;
 }
 
 .section {
+    padding: 20px;
     margin-top: 100px; 
 }
 
@@ -142,47 +148,50 @@ input[type="submit"]:hover {
     border: 2px solid #4CAF50; /* Green border on hover */
 }
 
-/* Media query for mobile devices */
-@media (max-width: 600px) {
-    .main-content {
-        padding: 10px;
-    }
-
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav ul li {
-        display: inline-block;
-        width: 50%;
-        text-align: center;
-        margin: 10px 0;
-    }
-
-    nav ul li a {
-        font-size: 16px; /* Keep the font size the same as before */
-    }
-
-    .section {
-        margin-top: 20px;
-    }
-
-    .section img {
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .Homepage-image {
         width: 100%;
+    }
+
+    .book-ticket-btn {
+        width: 100%;
+        padding: 10px;
     }
 
     form {
         width: 100%;
     }
 
-    form label, form input, form textarea {
+    input[type="email"], input[type="tel"], textarea {
         width: 100%;
         box-sizing: border-box;
     }
 
-    form input, form textarea {
-        margin-bottom: 10px;
+    /* Navigation bar in two rows */
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        flex: 1 1 50%; /* Each item takes up 50% of the width */
+        text-align: center; /* Center align text */
+    }
+
+    /* Footer in two rows */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer div {
+        flex: 1 1 50%; /* Each item takes up 50% of the width */
+        text-align: center; /* Center align text */
+    }
+
+    /* Add padding to the top of sections to avoid overlap with the navigation bar */
+    .section {
+        padding-top: 60px; 
     }
 }
